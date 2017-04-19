@@ -21,9 +21,11 @@ body {
 
 
 
+.header_top_line, .extra_menu {
+  background-color: #dfdfdf;
+}
 .header_top_line {
   height: 20px;
-  background-color: #dfdfdf;
 }
 .header_logo {
   background-color: #f2f2f2;
@@ -67,7 +69,37 @@ header a {
 }
 header a:hover,
 header a.active {
-  background-color: #972017;
+  background-color: #811e17;
+}
+
+.extra_menu li {
+  float: left;
+}
+
+.extra_menu div.enter {
+  float: right;
+  font-size: 16px;
+  line-height: 2.2;
+  color: #7a7a7a;
+}
+.extra_menu li>a {
+  text-decoration: underline;
+  display: block;
+  padding: 0 5px;
+  font-size: 16px;
+  line-height: 2.2;
+  color: #686868;
+  margin-left: 30px;
+}
+.extra_menu div.enter a {
+  margin-left: 0;
+}
+span.user {
+  font-weight: bold;
+}
+.extra_menu li>a:hover,
+.extra_menu li>a:active {
+  text-decoration: none;
 }
 
 
